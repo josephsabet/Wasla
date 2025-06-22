@@ -1,0 +1,13 @@
+{
+  "scoring_weights": {
+    "time_overlap": 0.3,
+    "language": 0.2,
+    "category": 0.2,
+    "experience": 0.1,
+    "goals": 0.1,
+    "region": 0.05,
+    "gender": 0.05
+  },
+  "match_threshold": 0.6,
+  "debug_mode": true
+}
