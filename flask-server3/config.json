@@ -8,6 +8,11 @@
     "region": 0.05,
     "gender": 0.05
   },
+  "scoring_thresholds": {
+    "time_overlap": [0.5, 0.8],
+    "language": [0.5, 1.0],
+    "category": [0.3, 0.8]
+  },
   "match_threshold": 0.6,
   "debug_mode": true
 }

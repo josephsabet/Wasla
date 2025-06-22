@@ -9,3 +9,4 @@ class CategoryScorer(MatchScorer):
         union = mentor_cat | mentee_cat
         return len(intersection) / len(union) if union else 0
 
+    

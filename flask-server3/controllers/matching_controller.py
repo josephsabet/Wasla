@@ -27,7 +27,7 @@ def match_user(mentee_id):
 
     service = MatchingService()
     best = service.find_best_matches(mentee, mentors)
-    #score = service.calculate_total_score(mentee, best)
+    # score = service.calculate_total_score(mentee, best)
 
     return jsonify({
         "mentee_id": mentee.id,
